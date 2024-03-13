@@ -1,0 +1,285 @@
+.logo{
+    color:rgb(18,115,226);;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.nav-link{
+    font-size: 22px;
+    line-height: 28.6px;
+    font-weight: 500;
+}
+.bd{
+    border-right: 1px solid black;
+    height: 50%;
+}
+.icon-link{
+    font-size: 16px;
+    margin-top: -10px;
+}
+.icon-link i{
+    font-size: 22px;
+}
+.search-input {
+    padding-left: 30px; /* Adjust this value according to the width of your icon */
+    background-image: url('../search.svg'); /* Replace 'path/to/your-search-icon.svg' with the actual path to your search icon */
+    background-repeat: no-repeat;
+    background-position: 10px center; /* Adjust the position of the icon */
+    width: 492px;
+}
+.main-nav{
+    margin: 0 20px 0 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.login-ui{
+    width: 200px;
+    height: 150px;
+    background-color: #DEE2E7;
+    margin-left: 20px;
+}
+.quotes{
+    width: 200px;
+    height: 95px;
+    background: linear-gradient(251.71deg, #B75CFF 14.66%, #671AE4 90.79%);
+    margin-left: 20px;
+}
+.quotes p{
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+}
+.discount{
+    width: 200px;
+    height: 95px;
+    background: linear-gradient(180deg, #1C86FF 0%, #0B3B72 100%);
+    margin-left: 20px;
+}
+.discount p{
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+}
+.trending{
+    background: #FFF4D4;
+}
+.trending h1{
+    padding: 20px 0;
+    color: #0B3B72;
+    font-size: 48px;
+    font-weight: 700;
+}
+.box-t{
+    background-color: white;
+    margin: 10px;
+    width: 395px;
+    height: 386px;
+    padding: 20px;
+}
+.box-t h2{
+    color: #0B3B72;
+    font-size: 24px;
+    font-weight: 700;
+}
+.box-child-1{
+    background-image: linear-gradient(
+        -45deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/Rectangle207.png);
+    background-size: cover;
+    width: 174px;
+    height: 135px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.box-child-1 p{
+    position: relative;
+    top: 100px;
+    color: white;
+}
+.box-child-2{
+    background-image: linear-gradient(
+        -45deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/Rectangle25272.png);
+    background-size: cover;
+    width: 174px;
+    height: 135px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.box-child-2 p{
+    position: relative;
+    top: 100px;
+    color: white;
+}
+
+.box-child-3{
+    background-image: linear-gradient(
+        -45deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/Rectangle120.png);
+    background-size: cover;
+    width: 174px;
+    height: 135px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.box-child-3 p{
+    position: relative;
+    top: 100px;
+    color: white;
+}
+
+.box-child-4{
+    background-image: linear-gradient(
+        -45deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/Rectangle121.png);
+    background-size: cover;
+    width: 174px;
+    height: 135px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.box-child-4 p{
+    position: relative;
+    top: 100px;
+    color: white;
+}
+
+/* home decor */
+
+.decor{
+    background: linear-gradient(90deg, rgba(243, 192, 192, 0.5) 0%, rgba(243, 192, 192, 0.5) 101.49%);
+}
+.box h2{
+    padding: 20px 0;
+    color: #0B3B72;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.box{
+    margin: 20px;
+    background-color:#FFFFFF6E;
+}
+.box-child{
+    background-image: linear-gradient(
+        -45deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/Rectangle207.png);
+    background-size: cover;
+    width: 131px;
+    margin: 15px;
+    height: 124px;
+    border-radius: 4px;
+}
+.box-child p{
+    position: relative;
+    top: 90px;
+    color: white;
+}
+
+/* home decore css */
+
+/* home products css */
+
+.big-product{
+    width: 305px;
+    height: 700px;
+}
+.big-product img{
+    width: 276px;
+    height: 403px;
+}
+.rating{
+    margin-top: 5px;
+    display: flex;
+}
+.rating img{
+    margin-top: 5px;
+    width: 70px;
+    height: 13px;
+}
+.rating p{
+    font-size: 14px;
+}
+.big-wishlist{
+    margin:0 5px;
+    height: 48px;
+    width:48px;
+    background-color:#D9E2EB;
+}
+.big-wishlist img{
+    width: 24px;
+    height: 24px;
+}
+.big-cartbtn{
+    background: linear-gradient(180deg, #0B3B72 0%, #1C86FF 100%);
+    width: 172px;
+    height: 48px;
+}
+
+.small-product{
+    width: 204px;
+    height: 350px;
+}
+.small-product img{
+    width: 180px;
+    height: 250px;
+}
+.pd-img {
+    position: relative;
+    overflow: hidden;
+}
+.pd-img a{
+    position: absolute;
+    top:12px;
+    left:5px;
+}
+.btn-sold{
+    background: linear-gradient(180deg, #1C86FF -40%, #0B3B72 98.33%);
+    width: 80px;
+    font-size: 12px;
+    color: white;
+    height: 26px;
+}
+.btn-sold:hover{
+    background: linear-gradient(180deg, #1C86FF -40%, #0B3B72 98.33%);
+    width: 80px;
+    font-size: 12px;
+    color: white;
+    height: 26px;
+}
+.btn-off{
+    background: #EFD33D;
+    width: 80px;
+    font-size: 12px;
+    color: black;
+    height: 26px;
+}
+.btn-off:hover{
+    background: #EFD33D;
+    width: 80px;
+    font-size: 12px;
+    color: black;
+    height: 26px;
+}
+
+/* deals of the day */
+.dealod{
+    background-color:#D9E2EB;
+    
+}
+
