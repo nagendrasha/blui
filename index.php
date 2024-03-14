@@ -41,29 +41,29 @@
     <nav class="navbar main-nav navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid w-100 d-flex justify-content-center">
             <div class="collapse navbar-collapse">
-                <ul class="navbar-nav justify-content-evenly">
-                    <li class="nav-item">
+                <ul class="navbar-nav justify-content-center w-100">
+                    <li class="nav-item flex-fill text-center">
                         <a class="nav-link px-3" aria-current="page" href="#">Men</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item flex-fill text-center">
                         <a class="nav-link" href="#">Women</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item flex-fill text-center">
                         <a class="nav-link" href="#">Kids</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home & Kithens</a>
+                    <li class="nav-item flex-fill text-center">
+                        <a class="nav-link" href="#">Home & Kitchens</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item flex-fill text-center">
                         <a class="nav-link" href="#">Beauty & Health</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item flex-fill text-center">
                         <a class="nav-link" href="#">Jewellery</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item flex-fill text-center">
                         <a class="nav-link" href="#">Bags & Footwear</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item flex-fill text-center">
                         <a class="nav-link" href="#">Electronics</a>
                     </li>
                 </ul>
@@ -71,6 +71,7 @@
         </div>
     </nav>
 </div>
+
 
 <!-- banner section -->
 
@@ -679,7 +680,7 @@
             <?php } ?>
         </div>
         <div class="row border rounded">
-            <div class="col-3 p-4">
+            <div class="col-lg-3">
                 <div class="row">
                     <div class="col-2 d-flex align-items-center">
                         <img src="./images/Package.png" alt="">
@@ -690,7 +691,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 p-4">
+            <div class="col-lg-3">
                 <div class="row">
                     <div class="col-2 d-flex align-items-center">
                         <img src="./images/Trophy.png" alt="">
@@ -701,7 +702,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 p-4">
+            <div class="col-lg-3">
                 <div class="row">
                     <div class="col-2 d-flex align-items-center">
                         <img src="./images/CreditCard.png" alt="">
@@ -712,7 +713,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 p-4">
+            <div class="col-lg-3">
                 <div class="row">
                     <div class="col-2 d-flex align-items-center">
                         <img src="./images/Headphones.png" alt="">
@@ -727,6 +728,26 @@
     </div>
 </div>
 
+<div class="container-fluid mt-4 subscribe">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col text-end me-5">
+                <h2>Subcribe our Newsletter</h2>
+                <p>Pellentesque eu nibh eget mauris congue mattis matti.</p>
+            </div>
+            <div class="col">
+                <form>
+                    <div class="input-group mb-3">
+                      <input type="email" class="form-control" placeholder="Your Email Address" aria-label="Your Email" aria-describedby="button-addon2">
+                      <button class="btn btn-primary" type="button" id="button-addon2">
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- latest blogs -->
 
